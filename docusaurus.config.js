@@ -51,6 +51,11 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            colorMode: {
+                defaultMode: 'dark',
+                disableSwitch: false,
+                respectPrefersColorScheme: false,
+            },
             navbar: {
                 title: 'PolliTicket',
                 logo: {
@@ -71,37 +76,54 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'Community',
+                        title: 'Quick links',
                         items: [
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                                label: 'Vote on top.gg',
+                                href: 'https://top.gg/',
                             },
                             {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                label: 'Panel',
+                                href: 'https://panel.polliticket.eu',
                             },
                             {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                label: 'Website',
+                                href: 'https://polliticket.eu',
                             },
                         ],
                     },
                     {
-                        title: 'More',
+                        title: 'Other',
                         items: [
                             {
-                                label: 'Blog',
-                                to: '/blog',
+                                label: 'Join our discord',
+                                href: 'https://discord.polliticket.eu/',
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/xiLight/PolliTicketDocs',
+                            },
+                        ],
+                    },
+                    {
+                        title: 'My partner',
+                        items: [
+                            {
+                                label: '#',
+                                href: '#',
+                            },
+                            {
+                                label: '#',
+                                href: '#',
+                            },
+                            {
+                                label: '#',
+                                href: '#',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} PolliTicket, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
