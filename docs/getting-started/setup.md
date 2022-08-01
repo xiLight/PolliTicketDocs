@@ -11,7 +11,7 @@ You have already learned **how to invite the bot**, now we come to the setup tha
 To be able to start a setup at all, you **need** the permission **ADMINISTRATOR**.
 The command to start the setup is `/setup`, the individual options are explained in more detail here.
 
-**What is a TicketCreator?**<br>
+**What is a TicketCreator?**
 ![TicketCreator](./img/ticket-creator.png)
 
 ## Setup options
@@ -674,7 +674,8 @@ This is a `required` field and must be filled out.
 PolliTicket offers you to respect your privacy and still have an archive!
 A dropdown must be used to select between `true`and `false`.
 
-`true` A transcript is created after the ticket close and saved online.<br>
+`true` A transcript is created after the ticket close and saved online.
+
 `false` The ticket content is **not** saved, but the ticket is moved to an archive category for 7 days that can only be seen by the admin.
 
 ### category-name
@@ -688,7 +689,8 @@ if the name already exists, the ticket creator (channel name) will be filed unde
 
 Thus, it is possible to complete several setups in order to divide the support into areas.
 
-You should use - for spaces.<br>
+You should use - for spaces.
+
 **Example:** `ticket-area` instanceof `ticket area`
 
 ### channel-name
@@ -698,7 +700,8 @@ This is a `required` field and must be filled out.
 :::
 
 Here you have to think of a name for the ticket-creator channel.
-You should use - for spaces.<br>
+You should use - for spaces.
+
 **Example:** `create-ticket` instanceof `create ticket`
 
 ### team-role
@@ -743,12 +746,18 @@ We offer you to indicate how long you need to answer the ticket. Here, a string 
 This is a `required` field and must be filled out.
 :::
 
-Here you can decide when the tickets should be closed automatically if there is no response after x days or x hours.<br>
-**Examples:**<br>
-`» 1 week & 5 days:` 1w5d <br>
-`» 1 day:` 1d <br>
-`» 1 week:` 1w <br>
-`» 8 hours:` 8h <br>
+Here you can decide when the tickets should be closed automatically if there is no response after x days or x hours.
+
+**Examples:**
+
+`» 1 week & 5 days:` 1w5d
+
+`» 1 day:` 1d
+
+`» 1 week:` 1w
+
+`» 8 hours:` 8h
+
 
 We recommend `3d` 3 days. After 3 days without a reply, one can assume that the support issue has been resolved.
 
