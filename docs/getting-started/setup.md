@@ -20,7 +20,7 @@ Anything **unclear** or **buggy** in this part? **[Please report it!](https://gi
 
 ### language
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -30,7 +30,7 @@ such as an English section and a German section or General Support and Donation 
 
 ### timezone
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -667,7 +667,7 @@ Zulu
 
 ### use-transcripts
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -680,7 +680,7 @@ A dropdown must be used to select between `true`and `false`.
 
 ### category-name
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -695,7 +695,7 @@ You should use - for spaces.
 
 ### channel-name
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -706,7 +706,7 @@ You should use - for spaces.
 
 ### team-role
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -715,7 +715,7 @@ Roles with administrator permission see channel even without supporter role.
 
 ### ping-role
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -724,7 +724,7 @@ The owner of the ticket is always pinged.
 
 ### max-tickets-per-user
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -733,7 +733,7 @@ More than 1 is not recommended.
 
 ### response-within-label
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -742,7 +742,7 @@ We offer you to indicate how long you need to answer the ticket. Here, a string 
 
 ### auto-close-time
 
-:::caution
+:::info
 This is a `required` field and must be filled out.
 :::
 
@@ -763,7 +763,7 @@ We recommend `3d` 3 days. After 3 days without a reply, one can assume that the 
 
 ### custom-text
 
-:::caution
+:::info
 This option is optional and does not need to be completed. The word `skip` can be used to skip this step.
 :::
 
@@ -778,7 +778,7 @@ TODO IMAGE
 
 ### embed-image-url
 
-:::caution
+:::info
 This option is optional and does not need to be completed. The word `skip` can be used to skip this step.
 :::
 

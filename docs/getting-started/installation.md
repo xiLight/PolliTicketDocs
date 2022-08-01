@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation
 
-:::caution
+:::info
 
 Please note that you need a **[Discord Account](https://discord.com/)** and a Discord server with **ADMINISTRATOR** permissions.
 
