@@ -4,18 +4,23 @@ sidebar_position: 1
 
 # Installation
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+:::caution
 
-Docusaurus has **much more to offer**!
+Please note that you need a **[Discord Account](https://discord.com/)** and a Discord server with **ADMINISTRATOR** permissions.
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+:::
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+## Invite
 
-## What's next?
+There are different botlists, we recommend visiting **[Direct invite](https://invite.polliticket.eu)**.
 
-- Read the [official documentation](https://docusaurus.io/).
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+- Please select your Discord in the dropdown where you want to invite the bot.
+- `Leave the permissions` as they are to ensure the functionality of the bot.
+
+<details>
+<summary>Other pages to invite the bot</summary>
+Top.gg: https://top.gg
+</details>
+
+
+Anything **unclear** or **buggy** in this part? **[Please report it!](https://github.com/xiLight/PolliTicketDocs/issues/new/choose)**
