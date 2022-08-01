@@ -66,6 +66,10 @@ const config = {
                     //{type: 'doc', docId: 'intro', position: 'left', label: 'Tutorial',},
                     //{to: '/blog', label: 'Blog', position: 'left'},
                     {
+                        type: 'docsVersionDropdown',
+                        position: 'right',
+                    },
+                    {
                         href: '#',
                         label: 'Join our discord',
                         position: 'right',
