@@ -678,6 +678,15 @@ A dropdown must be used to select between `true`and `false`.
 
 `false` The ticket content is **not** saved, but the ticket is moved to an archive category for 7 days that can only be seen by the admin.
 
+### log-channel
+
+:::info
+This is a `required` field and must be filled out.
+No new channel is created, but an existing channel must be selected here.
+:::
+
+Please select a channel here where the bot will post the transcripts and logs.
+
 ### category-name
 
 :::info
