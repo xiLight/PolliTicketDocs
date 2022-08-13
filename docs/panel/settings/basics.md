@@ -35,3 +35,5 @@ which only exists as soon as you have finished /setup.
 `B` Is for setup based settings
 
 ![Log-Embed](./img\setup-select.png)
+
+Anything **unclear** or **buggy** in this part? **[Please report it!](https://github.com/xiLight/PolliTicketDocs/issues/new/choose)**
