@@ -10,16 +10,16 @@ Please note that you need a **[Discord Account](https://discord.com/)** and a Di
 
 :::
 
-## Discord Auth
+## ➤ Discord Auth
 
 We use the Discord Auth as login, which means that only one registration at **[Discord](https://discord.com/)** is necessary,
 to be able to login.
 
-## JavaScript
+## ➤ JavaScript
 
 It is necessary that JavaScript is allowed, to be able to use all features correctly.
 
-## Permissions
+## ➤ Permissions
 
 To view transcripts, only a login and the appropriate link are required.
 
