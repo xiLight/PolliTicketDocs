@@ -1,0 +1,8 @@
+{
+  "label": "Web-Panel",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to use the web panel"
+  }
+}
