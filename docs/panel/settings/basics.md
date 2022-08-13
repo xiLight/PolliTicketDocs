@@ -13,7 +13,7 @@ User-Area.
 
 ![Log-Embed](./img\setting-nav.png)
 
-### Select your Discord server
+## Select your Discord server
 
 If you have not yet selected a Discord, you must select your Discord once here.
 
@@ -23,7 +23,7 @@ If you have not yet selected a Discord, you must select your Discord once here.
 Your Discord is not available in the Discord selection? Check your Discord permissions and make sure the bot is on Discord.
 :::
 
-### Select the setup you want to change
+## Select the setup you want to change
 
 There are different setups that you can edit here.
 
