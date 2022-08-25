@@ -35,34 +35,28 @@ To save this item, Save & Repost MUST be clicked so that the bot can move the em
 
 Here you can adjust the TextChannel where the embed ends up, which is used to create new tickets.
 
-![Log-Embed](./img\creator-embed-channel.png)
-
-#### No Permissions
-
 **In the dropdown appears (No Permissions) what to do?**
-The error indicates that the bot in this has no permission to post or view the channel.
 
-The following permissions are required:
+You must give the bot role the following permissions to select the channel
 - VIEW_CHANNEL
 - MESSAGE_SEND
 - MESSAGE_HISTORY
 - MESSAGE_EMBED_LINKS
+
+![Log-Embed](./img\creator-embed-channel.png)
 
 ### ➤ Log TextChannel
 Here you can select the channel where the logs are saved when a ticket is closed.
 
-![Log-Embed](./img\log-textchannel.png)
-
-#### No Permissions
-
 **In the dropdown appears (No Permissions) what to do?**
-The error indicates that the bot in this has no permission to post or view the channel.
 
-The following permissions are required:
+You must give the bot role the following permissions to select the channel
 - VIEW_CHANNEL
 - MESSAGE_SEND
 - MESSAGE_HISTORY
 - MESSAGE_EMBED_LINKS
+
+![Log-Embed](./img\log-textchannel.png)
 
 ### ➤ Max Tickets per User
 :::info
