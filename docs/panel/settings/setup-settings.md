@@ -37,11 +37,32 @@ Here you can adjust the TextChannel where the embed ends up, which is used to cr
 
 ![Log-Embed](./img\creator-embed-channel.png)
 
+#### No Permissions
+
+**In the dropdown appears (No Permissions) what to do?**
+The error indicates that the bot in this has no permission to post or view the channel.
+
+The following permissions are required:
+- VIEW_CHANNEL
+- MESSAGE_SEND
+- MESSAGE_HISTORY
+- MESSAGE_EMBED_LINKS
+
 ### ➤ Log TextChannel
 Here you can select the channel where the logs are saved when a ticket is closed.
 
 ![Log-Embed](./img\log-textchannel.png)
 
+#### No Permissions
+
+**In the dropdown appears (No Permissions) what to do?**
+The error indicates that the bot in this has no permission to post or view the channel.
+
+The following permissions are required:
+- VIEW_CHANNEL
+- MESSAGE_SEND
+- MESSAGE_HISTORY
+- MESSAGE_EMBED_LINKS
 
 ### ➤ Max Tickets per User
 :::info
