@@ -16,5 +16,5 @@ slug: /
 
 # Quick link list
 - [F.A.Q](https://polliticket.eu/#faq)
-- [What is QuickSetup?](#)
+- [What is QuickSetup?](https://docs.polliticket.eu/getting-started/setup#quick-setup)
 - [Information for /Setup](https://docs.polliticket.eu/getting-started/setup)
