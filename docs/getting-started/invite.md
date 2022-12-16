@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Installation
+# Invite
 
 :::info
 
@@ -19,7 +19,7 @@ There are different botlists, we recommend visiting **[Direct invite](https://in
 
 <details>
 <summary>Other pages to invite the bot</summary>
-Top.gg: https://top.gg
+https://top.gg
 </details>
 
 
