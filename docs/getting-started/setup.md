@@ -9,14 +9,31 @@ You have already learned **how to invite the bot**, now we come to the setup tha
 ## Begin
 
 To be able to start a setup at all, you **need** the permission **ADMINISTRATOR**.
-The command to start the setup is `/setup`, the individual options are explained in more detail here.
-
-**What is a TicketCreator?**
-![TicketCreator](./img/ticket-creator.png)
 
 ## Setup options
 
-Anything **unclear** or **buggy** in this part? **[Please report it!](https://github.com/xiLight/PolliTicketDocs/issues/new/choose)**
+- Quick setup
+- Normal setup
+
+#### Quick setup
+It is possible to perform a /Quicksetup, but you should have access to our panel for this, as the settings after the setup are currently only possible with our panel. The /Setup command contains all settings as a command.
+
+#### Normal setup
+The command to start the setup is `/setup`, the individual options are explained in more detail here.
+
+## How many Setups you can do?
+You can create as many setups as you need. For example, you can make one setup for donation support and one setup for normal support.
+
+## Setup info
+
+### setup-name
+
+:::info
+This is a `required` field and must be filled out.
+:::
+
+Your setup must be given a name, this name also appears in the panel under Settings.
+
 
 ### language
 
@@ -24,9 +41,8 @@ Anything **unclear** or **buggy** in this part? **[Please report it!](https://gi
 This is a `required` field and must be filled out.
 :::
 
-Here you have to select the language the bot uses for the tickets via a dropdown.
-You can always make one setup per TicketCreator, which means that you could also make different TicketCreators, 
-such as an English section and a German section or General Support and Donation Support.
+Here you have to select the language the bot uses for the tickets via a dropdown.<br><br>
+The language is bound to your setup, which means that each setup can have a different language.
 
 ### timezone
 
@@ -34,8 +50,8 @@ such as an English section and a German section or General Support and Donation 
 This is a `required` field and must be filled out.
 :::
 
-Here you have to enter a time zone ID so that the bot knows how to handle your time.
-Because there are many time zone IDs, I have selected the most common time zones.
+Here you have to enter a timezone so that the bot knows how to handle your time.
+Because there are many timezones, I have listed the most common timezones.
 
 `Most common timezones:` UTC, Europe/Berlin
 <details>
@@ -672,11 +688,11 @@ This is a `required` field and must be filled out.
 :::
 
 PolliTicket offers you to respect your privacy and still have an archive!
-A dropdown must be used to select between `true`and `false`.
+A dropdown must be used to select between `true` and `false`.
 
 `true` A transcript is created after the ticket close and saved online.
 
-`false` The ticket content is **not** saved, but the ticket is moved to an archive category for 7 days that can only be seen by the admin.
+`false` The ticket content is **not** saved, but the ticket is moved to an archive category for 7 days that can only be seen by an admin.
 
 ### log-channel
 
@@ -687,20 +703,13 @@ No new channel is created, but an existing channel must be selected here.
 
 Please select a channel here where the bot will post the transcripts and logs.
 
-### category-name
+### tickets-spacer-name
 
 :::info
 This is a `required` field and must be filled out.
 :::
 
-Here you have to think of a name for the category,
-if the name already exists, the ticket creator (channel name) will be filed under the existing category.
-
-Thus, it is possible to complete several setups in order to divide the support into areas.
-
-You should use - for spaces.
-
-**Example:** `ticket-area` instanceof `ticket area`
+If category already exists, the existing category is taken. New Tickets will land here.
 
 ### channel-name
 
@@ -708,10 +717,7 @@ You should use - for spaces.
 This is a `required` field and must be filled out.
 :::
 
-Here you have to think of a name for the ticket-creator channel.
-You should use - for spaces.
-
-**Example:** `create-ticket` instanceof `create ticket`
+Please select a channel here where the bot will post the creator.
 
 ### team-role
 
@@ -719,9 +725,10 @@ You should use - for spaces.
 This is a `required` field and must be filled out.
 :::
 
-A dropdown is used to select the supporter role that has the right to close and claim a ticket.
-Roles with administrator permission see channel even without supporter role.
+A dropdown is used to select the supporter role that has the right to see, close and claim a ticket.
+Roles with administrator permission can see tickets even without supporter role.
 
+You can use the same role for team and ping.
 ### ping-role
 
 :::info
@@ -731,6 +738,7 @@ This is a `required` field and must be filled out.
 Via a drop-down menu, you can select the ping role that will be pinged as soon as a new ticket has been created.
 The owner of the ticket is always pinged.
 
+You can use the same role for team and ping.
 ### max-tickets-per-user
 
 :::info
@@ -740,35 +748,27 @@ This is a `required` field and must be filled out.
 Here you can limit how many tickets a user may have in the TicketCreator at the same time.
 More than 1 is not recommended.
 
-### response-within-label
-
-:::info
-This is a `required` field and must be filled out.
-:::
-
-We offer you to indicate how long you need to answer the ticket. Here, a string is expected as an answer.
-![Response-within-label](./img/response-within-label.png)
+If the value is 0, the bot will close the support and also indicate that the support is currently closed.
 
 ### auto-close-time
-
-:::info
-This is a `required` field and must be filled out.
-:::
 
 Here you can decide when the tickets should be closed automatically if there is no response after x days or x hours.
 
 **Examples:**
 
-`» 1 week & 5 days:` 1w5d
+`» 8 hours:` 8h
 
 `» 1 day:` 1d
 
-`» 1 week:` 1w
-
-`» 8 hours:` 8h
+`» 3 days:` 3d
 
 
-We recommend `3d` 3 days. After 3 days without a reply, one can assume that the support issue has been resolved.
+We recommend 3 days `3d`. After 3 days without a reply, one can assume that the support issue has been resolved.
+
+### response-within-label
+
+We offer you to indicate how long you need to answer the ticket. Here, a string is expected as an answer.
+![Response-within-label](./img/response-within-label.png)
 
 ### custom-text
 
@@ -780,10 +780,7 @@ If you would like to give your TicketCreator a beautiful custom text, then you h
 
 You can create your own description, which will be placed under the info.
 **Maximum 300 characters** allowed.
-I would recommend presetting the description, because it must be written in one line.
-A new line in the description is written by `\n`
-
-TODO IMAGE
+I would recommend use our panel, because it must be written in one line in slash commands.
 
 ### embed-image-url
 
