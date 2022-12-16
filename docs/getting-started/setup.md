@@ -18,6 +18,26 @@ To be able to start a setup at all, you **need** the permission **ADMINISTRATOR*
 #### Quick setup
 It is possible to perform a /Quicksetup, but you should have access to our panel for this, as the settings after the setup are currently only possible with our panel. The /Setup command contains all settings as a command.
 
+A quicksetup replaces many values with our default values, allowing a quick setup for testing or editing in our panel.
+
+**Required**
+- `setup-name`
+- `language`
+
+**Defaults**
+- `timezone` UTC
+- `use-transcripts` false ( Offline Archive )
+- `log-channel` 📛・transcripts-log ( Automatically created )
+- `tickets-spacer-name` 🎫| ticket Tickets |🎫 ( Automatically created )
+- `create-channel` 🎫・general-ticket ( Automatically created )
+- `team-role` setup-name + "-team" ( Automatically created )
+- `ping-role` is team-role
+- `max-tickets-per-user` 1
+- `response-within-label` 24 hours
+- `auto-close-time` 3d
+- `custom-text` EditMe in our panel
+- `embed-image-url` null
+
 #### Normal setup
 The command to start the setup is `/setup`, the individual options are explained in more detail here.
 
